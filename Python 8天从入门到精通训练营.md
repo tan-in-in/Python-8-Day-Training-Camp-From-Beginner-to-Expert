@@ -1153,3 +1153,55 @@ for i in range(3):
 ```
 
 ## 5.7 京牌摇号小程序代码实现
+
+```python
+import random
+import string
+
+count = 0
+while count < 3:
+    print(f'第{count + 1}次摇号')
+    car_nums = []  # 存储供用户选择的车牌号
+    for i in range(20):
+        car_num = f'京{random.choice(string.ascii_uppercase)}·'f'{"".join(random.sample(string.ascii_uppercase + string.digits, 5))}'
+        car_nums.append(car_num)  # 把生成的号码添加到列表
+        print(f'{i + 1}.{car_num}')
+    choice = input('输入你喜欢的车牌号:')
+    if choice in car_nums:
+        print(f"恭喜你选择了新车牌号:{choice}")
+        exit('程序退出')
+    else:
+        count += 1
+```
+
+## 5.8 年会抽奖程序
+
+```python
+"""
+年会抽奖程序
+300名员工
+一等奖 3名
+二等奖 6名
+三等奖 30名
+规则
+一共抽三次 第一次抽三等奖 第二次抽二等奖 第三次抽一等奖
+每个员工限中奖一次 不能重复
+"""
+import random
+
+numbers = []
+for i in range(1, 301):
+    numbers.append(str(i))
+third_prize = random.sample(numbers, 30)
+for i in numbers:
+    if i in third_prize:
+        numbers.remove(i)
+second_prize = random.sample(numbers, 6)
+for i in numbers:
+    if i in second_prize:
+        numbers.remove(i)
+first_prize = random.sample(numbers, 3)
+print(f'恭喜{" ".join(first_prize)}号员工中得一等奖')
+print(f'恭喜{" ".join(second_prize)}号员工中得二等奖')
+print(f'恭喜{" ".join(third_prize)}号员工中得三等奖')
+```

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f4db2b0-dc0b-40d3-877d-07b12f8ceecd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发/5.8 年会抽奖程序.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python 8天从入门到精通训练营.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python 8天从入门到精通训练营.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,18 @@
     </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tan-in-in"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tan-in-in/Python-8-Day-Training-Camp-From-Beginner-to-Expert.git",
+    "accountId": "5b849bc7-90a7-48af-b8c1-572ffaba9cdb"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -46,7 +57,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2sxu87d8X6AXV4MSQptiWcaGMOr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -97,10 +110,11 @@
     "Python.5.5 while 循环.executor": "Run",
     "Python.5.6 京牌摇号小程序.executor": "Run",
     "Python.5.7 京牌摇号小程序代码实现.executor": "Run",
+    "Python.5.8 年会抽奖程序.executor": "Run",
     "Python.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "python学习",
     "last_opened_file_path": "D:/code/python/第一章 Python基础与进阶 （8 门课程）/Python 8天从入门到精通训练营",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -111,30 +125,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.5.7 京牌摇号小程序代码实现">
-    <configuration name="5.3 break&amp;continue逃出鬼屋" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python 8天从入门到精通训练营" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发/5.3 break&amp;continue逃出鬼屋.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5.8 年会抽奖程序">
     <configuration name="5.4 for循环打印三角形" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python 8天从入门到精通训练营" />
       <option name="ENV_FILES" value="" />
@@ -227,13 +218,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5.8 年会抽奖程序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发/5.8 年会抽奖程序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5.8 年会抽奖程序" />
         <item itemvalue="Python.5.7 京牌摇号小程序代码实现" />
         <item itemvalue="Python.5.6 京牌摇号小程序" />
         <item itemvalue="Python.5.5 while 循环" />
         <item itemvalue="Python.5.4 for循环打印三角形" />
-        <item itemvalue="Python.5.3 break&amp;continue逃出鬼屋" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +287,7 @@
       <workItem from="1739798082050" duration="2103000" />
       <workItem from="1739838641983" duration="1577000" />
       <workItem from="1739859119678" duration="3849000" />
+      <workItem from="1739867245216" duration="1934000" />
     </task>
     <servers />
   </component>
@@ -323,6 +338,7 @@
     <SUITE FILE_PATH="coverage/Python_8$2_12_.coverage" NAME="2.12 创建字符串 覆盖结果" MODIFIED="1739515285888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$3_7_.coverage" NAME="3.7 累加和案例 覆盖结果" MODIFIED="1739760067243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章  （新）Day3 - Python逻辑语句" />
     <SUITE FILE_PATH="coverage/Python_8$4_14__.coverage" NAME="4.14 格式化输出-打印好看的个人信息卡 覆盖结果" MODIFIED="1739798482037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第4章  （旧）Day1 - Python小白上路" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$5_8_.coverage" NAME="5.8 年会抽奖程序 覆盖结果" MODIFIED="1739869187065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
     <SUITE FILE_PATH="coverage/Python_8$2_3_.coverage" NAME="2.3 语句分隔符 覆盖结果" MODIFIED="1739492811882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$2_19_.coverage" NAME="2.19 字符串内置方法二 覆盖结果" MODIFIED="1739593870323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$5_3_break_continue.coverage" NAME="5.3 break&amp;continue逃出鬼屋 覆盖结果" MODIFIED="1739859293125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
