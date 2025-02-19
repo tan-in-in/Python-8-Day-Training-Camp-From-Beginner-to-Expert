@@ -10,9 +10,7 @@
 """
 import random
 
-numbers = []
-for i in range(1, 301):
-    numbers.append(str(i))
+numbers = list(range(1, 301))
 third_prize = random.sample(numbers, 30)
 for i in numbers:
     if i in third_prize:
@@ -22,6 +20,9 @@ for i in numbers:
     if i in second_prize:
         numbers.remove(i)
 first_prize = random.sample(numbers, 3)
-print(f'恭喜{" ".join(first_prize)}号员工中得一等奖')
-print(f'恭喜{" ".join(second_prize)}号员工中得二等奖')
-print(f'恭喜{" ".join(third_prize)}号员工中得三等奖')
+first_prize.sort()
+second_prize.sort()
+third_prize.sort()
+print(f'恭喜{str(first_prize).strip("[]")}号员工中得一等奖')
+print(f'恭喜{str(second_prize).strip("[]")}号员工中得一等奖')
+print(f'恭喜{str(third_prize).strip("[]")}号员工中得一等奖')
