@@ -1189,9 +1189,7 @@ while count < 3:
 """
 import random
 
-numbers = []
-for i in range(1, 301):
-    numbers.append(str(i))
+numbers = list(range(1, 301))
 third_prize = random.sample(numbers, 30)
 for i in numbers:
     if i in third_prize:
@@ -1201,7 +1199,234 @@ for i in numbers:
     if i in second_prize:
         numbers.remove(i)
 first_prize = random.sample(numbers, 3)
-print(f'恭喜{" ".join(first_prize)}号员工中得一等奖')
-print(f'恭喜{" ".join(second_prize)}号员工中得二等奖')
-print(f'恭喜{" ".join(third_prize)}号员工中得三等奖')
+first_prize.sort()
+second_prize.sort()
+third_prize.sort()
+print(f'恭喜{str(first_prize).strip("[]")}号员工中得一等奖')
+print(f'恭喜{str(second_prize).strip("[]")}号员工中得一等奖')
+print(f'恭喜{str(third_prize).strip("[]")}号员工中得一等奖')
 ```
+
+# 第6章 （旧）Day3 - 顺丰快递分拣小程序
+
+## 6.1 数据类型-字符串各种骚操作
+
+```python
+# 字符串定义 特性
+# 字符串:一个有序的字符的合集 用于在计算机里存储和表示文本信息
+# 有序 索引 切片 不可变
+s = 'hello world'
+print(s[0:5])  # 顾头不顾尾
+print(id(s))  # 1766053474288
+s = 'hello'
+print(id(s))  # 1766053386768
+
+# 字符串常用操作
+# 1.center 字符串填充
+# ------------hello-------------
+print(s.center(30, '-'))
+
+# 2.count 计数
+print(s.count('l'))  # 2
+
+# 3.endswith startswith 判断结尾开头
+print(s.startswith('h'))  # True
+print(s.endswith('l'))  # False
+
+# 4.find 查找字符在字符串中索引 找不到会返回-1
+print(s.find('l'))  # 2
+
+# 5.isdigit 判断是否是整数
+print(s.isdigit())  # False
+
+# 6.join 字符串的拼接
+print(' '.join(['1', '2', '3']))  # 1 2 3
+
+# 7.replace 字符串替换
+print(s.replace('l', 'a'))  # heaao
+
+# 8.split 分割字符串
+print(s.split('l'))  # ['he', '', 'o']
+```
+
+## **6.2 数据类型-又见列表**
+
+1. 定义 特性
+2. 增删改查操作
+3. 步长
+4. 排序 反转
+5. 列表循环
+
+```python
+# 定义:逗号分隔 按照索引 存放各种数据类型 每个位置代表一个元素
+a = []
+print(type(a))  # <class 'list'>
+
+# 增加 append 追加 insert 插入 extend 合并
+# 列表的嵌套
+a = [1, 2, [3, 4, 5], 6]
+print(a)  # [1, 2, [3, 4, 5], 6]
+print(a[2][1])  # 4
+
+# 删除 del 直接删除 pop 删除(默认删除最后一个元素 并返回删除值)
+print(a.pop())  # 6
+print(a.pop())  # [3, 4, 5]
+
+# remove 指定元素名删除 只会删除找到的第一个值
+
+# 修改
+
+# 查找 index 查找索引 count 返回个数 in 判断
+# 先判断 取索引 去修改
+```
+
+## 6.3 数据类型-列表切片&排序&反转&循环
+
+```python
+# 切片
+num = list(range(1,11))
+print(num)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(num[0:4])  # [1, 2, 3, 4]
+
+print(num[4:])  # [5, 6, 7, 8, 9, 10] 省略写法
+print(num[4:10])  # [5, 6, 7, 8, 9, 10] 超标写法
+
+# 倒着切 从左往右切
+print(num[-3:-1])  # [8, 9]
+print(num[-1:-3])  # []
+
+# 步长
+print(num[::2])  # [1, 3, 5, 7, 9]
+
+# 反转
+print(num[::-1])  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+num.reverse()
+print(num)  # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+# 排序 sort()
+num.sort()
+print(num)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# 循环列表元素
+for i in enumerate(num):
+    print(i[0], i[1])
+```
+
+## 6.4 班级按成绩分组小程序
+
+```python
+# 需求:要求按考试成绩将学员分为五组 每十分一组 其中不及格单独为一组
+
+stu_list = [['李渊', 82], ['李世⺠', 7], ['侯君集', 5], ['李靖', 58], ['魏征', 41], ['房⽞龄', 64], ['杜如晦', 65],
+            ['柴绍', 94], ['程知节', 45], ['尉迟恭', 94], ['秦琼', 54], ['⻓孙⽆忌', 85], ['李存恭', 98], ['封德彝', 16],
+            ['段志⽞', 44], ['刘弘基', 18], ['徐世绩', 86], ['李治', 19], ['武则天', 39], ['太平公主', 57], ['⻙后', 76],
+            ['李隆基', 95], ['杨⽟环', 33], ['王勃', 49], ['陈⼦昂', 91], ['卢照邻', 70], ['杨炯', 81], ['王之涣', 82],
+            ['安禄⼭', 18], ['史思明', 9], ['张巡', 15], ['雷万春', 72], ['李⽩', 61], ['⾼⼒⼠', 58], ['杜甫', 27],
+            ['⽩居易', 5], ['王维', 14], ['孟浩然', 32], ['杜牧', 95], ['李商隐', 34], ['郭⼦仪', 53], ['张易之', 39],
+            ['张昌宗', 61], ['来俊⾂', 8], ['杨国忠', 84], ['李林甫', 95], ['⾼适', 100], ['王昌龄', 40], ['孙思邈', 46],
+            ['⽞奘', 84], ['鉴真', 90], ['⾼骈', 85], ['狄仁杰', 62], ['⻩巢', 79], ['王仙芝', 16], ['⽂成公主', 13],
+            ['松赞⼲布', 47], ['薛涛', 79], ['⻥⽞机', 16], ['贺知章', 20], ['李泌', 17], ['韩愈', 100], ['柳宗元', 88],
+            ['上官婉⼉ 五代⼗国：朱温', 55], ['刘仁恭', 6], ['丁会', 26], ['李克⽤', 39], ['李存勖', 11], ['葛从周', 25],
+            ['王建', 13], ['刘知远', 95], ['⽯敬瑭', 63], ['郭威', 28], ['柴荣', 50], ['孟昶', 17], ['荆浩', 84],
+            ['刘彟', 18], ['张及之', 45], ['杜宇', 73],['⾼季兴', 39], ['喻皓', 50], ['历真', 70], ['李茂贞', 6],
+            ['朱友珪', 7], ['朱友贞', 11], ['刘守光', 2]]
+new_stu_list = [[], [], [], [], []]
+for stu in stu_list:
+    if stu[1] >= 90:
+        new_stu_list[0].append([stu[0], stu[1]])
+    elif stu[1] >= 80:
+        new_stu_list[1].append([stu[0], stu[1]])
+    elif stu[1] >= 70:
+        new_stu_list[2].append([stu[0], stu[1]])
+    elif stu[1] >= 60:
+        new_stu_list[3].append([stu[0], stu[1]])
+    else:
+        new_stu_list[4].append([stu[0], stu[1]])
+# 将成绩按高到低进行排序
+for i in new_stu_list:
+    i = sorted(i, key=lambda x: x[1], reverse=True)
+    print(i)
+```
+
+## 6.5 数据类型-字典来啦
+
+**字典特性：**
+
+1. key:value结构
+2. key必须为不可变数据类型（字符串、数字）、必须唯一
+3. 可存放任意多个value 可修改 可以不唯一
+4. 无序
+5. 查询速度快 且不受dict大小影响
+
+```python
+dic = {
+    'Alex': [23, 'CEO', 66000],
+    '黑菇凉': [24, '行政', 4000],
+    '佩奇': [26, '讲师', 4000],
+}
+print('佩奇' in dic)  # True
+print(dic['佩奇'])  # [26, '讲师', 4000]
+print(dic['佩奇'][0])  # 26
+```
+
+## 6.6 数据类型-字典的各种操作
+
+- 定义 特性
+- 增删改查操作
+- 循环
+- 嵌套
+
+```python
+dic = {'Alex': [23, 'CEO', 66000], '黑菇凉': [24, '行政', 4000], '佩奇': [26, '讲师', 4000]}
+# 增加
+print(dic)
+
+# 修改
+dic['佩奇'] = 25
+print(dic)
+
+# 删除 clear() 清空
+# dic.pop('佩奇')
+# print(dic)
+
+# 查找 通过key差value
+print(dic['Alex'])
+print(dic.keys())
+print(dic.values())
+print(dic.items())
+
+for i, j in dic.items():
+    print(i, j)
+
+# 推荐用这种 功率速度最快
+for i in dic:
+    print(i, dic[i])
+
+print(len(dic))  # 3
+```
+
+## 6.7 秒懂二进制运算
+
+**略**
+
+## 6.8 计算机如何实别文字
+
+**略**
+
+## 6.9 计算机如何识别中文
+
+**略**
+
+## 6.10 编码的战国时代
+
+**略**
+
+## 6.11 utf8又是个什么鬼
+
+**略**
+
+## 6.12 秒懂16进制
+
+**略**
+
+## 6.13 东风快递分拣程序
