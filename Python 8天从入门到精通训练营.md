@@ -2235,3 +2235,318 @@ print(f'已为你找到{count}家包含"{name}"的公司')
 # 3. 允许按股票价格、涨跌幅、换⼿率这⼏列来筛选信息，⽐如输⼊“价格>50”则把价格⼤于50的股票都打印，输⼊“市盈率<50“，则把市盈率⼩于50的股票都打印，不⽤判断等于。
 f.close()
 ```
+
+# 第8章 （旧）Day5 - 函数编程
+
+## 8.1 函数编程的作用
+
+## 8.2 函数特性&语法定义
+
+**函数**：指将一组语句的集合通过一个名字（函数名）封装起来，要想执行这个函数，只需调用其函数名即可
+
+**特性**
+
+- 减少重复代码
+- 使程序变得可扩展
+- 使程序变得易维护
+
+```python
+def sayhi(name, age):
+    print(f'hello, my name is {name} and I am {age} years old.')
+
+
+sayhi('tan', '20')
+```
+
+## 8.3 函数参数-形参&实参&默认参数
+
+```python
+# 形参:形参只在函数内部有效
+# 实参:在进行函数调用时 他们都必须有确定的值
+# 默认参数:要放到最后
+def calc(x, y, z=2):
+    res = x ** y - z
+    print(f'{x}**{y}-{z}={res}')
+
+
+calc(2, 3)
+calc(2, 3, 6)
+```
+
+## 8.4 函数参数-关键参数&非固定参数
+
+```python
+# 关键参数(指定参数)
+# 关键参数必须放在位置参数之后
+
+# 非固定参数 *args 会把传入的参数变成一个元组形式
+# **kwargs(字典)
+def stu_info(name, age, *args, **kwargs):
+    print(name, age, args)
+    print(type(args))  # <class 'tuple'>
+
+
+stu_info('tan', 20, 'boy', 'stu', 'c')
+```
+
+## 8.5 函数返回值的作用
+
+```python
+# 返回值 return
+# 返回执行结果
+# 程序执行 一遇到return 就代表这函数的结束
+```
+
+## 8.6 局部变量与全局变量
+
+```python
+name = 'tan'
+
+
+def change_name():
+    # global 函数中使用全部变量
+    global name
+    name = 'jin'
+    print(name)  # jin
+
+
+change_name()
+print(name)  # tan
+```
+
+## 8.7 给函数传列表-字典时的特殊现象
+
+```python
+d = {
+    'name': 'tan',
+    'age': 25,
+    'hobbie': 'run'
+}
+l = ['a', 'b', 'c']
+print(id(d))
+print(id(l))
+
+
+def change_data(info, girls):
+    print(id(info))
+    print(id(girls))
+    info['hobbie'] = '学习'
+    girls.append('d')
+
+
+change_data(d, l)
+# {'name': 'tan', 'age': 25, 'hobbie': '学习'} ['a', 'b', 'c', 'd']
+print(d, l)
+```
+
+## 8.8 常用内置函数_1
+
+```python
+# 1.abs 取绝对值
+print(abs(-10))  # 10
+
+# 2.all 判断容器数据类型里面的变量
+a = [0, 1, 2, 3, 4]
+print(all(a))  # False
+
+# 3.any 和all相反
+print(any(a))  # True
+
+# 4.bool 判断变量布尔值
+print(bool(0))  # False
+
+# 5.chr 根据数字返回相应ascii字符
+print(chr(97))  # a
+
+# 6.dict 生成字典
+
+# 7.dir 返回当前程序环境下的内存变量
+# ['__annotations__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__', '__name__', '__package__', '__spec__', 'a']
+print(dir())
+
+# 8.locals 返回当前程序环境下的内存变量名和变量值
+# {'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x0000029D76D9BC20>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, '__file__': 'D:\\code\\python\\Python-8-Day-Training-Camp-From-Beginner-to-Expert\\第8章  （旧）Day5 - 函数编程\\8.8 常用内置函数_1.py', '__cached__': None, 'a': [0, 1, 2, 3, 4]}
+print(locals())
+
+# 9.map
+l = list(range(10))
+print(l)
+
+
+def calc(x):
+    return x * x
+
+
+print(map(calc, l))  # <map object at 0x0000014FC5D342B0>
+m = map(calc, l)  # 迭代器
+for i in m:  # 每循环一次 就把列表里的每一个元素扔给calc函数执行
+    print(i)
+
+# 10.max
+print(max(l))  # 9
+
+# 11.min
+print(min(l))  # 0
+
+# 12.sum
+print(sum(l))  # 45
+ 
+```
+
+## 8.9 常用内置函数2
+
+```python
+# 1.ord chr相反 答应字符对应的10进制数字
+print(ord('a'))  # 97
+
+# 2.enumerate 迭代器
+for i, j in enumerate(range(10)):
+    print(i, j)
+
+# 3.round 保留浮点数
+print(round(3.1415926, 5))  # 3.14159
+
+# 4.type 返回变量数据类型
+print(type('1'))  # <class 'str'>
+
+# 5.zip
+a = [1, 2, 3]
+b = [4, 5, 6]
+for i in zip(a, b):
+    print(i)
+
+# 6.filter 把列表里的每一个元素交给第一个参数(函数)运行, 若结果为真则返回值
+```
+
+## 8.10 学籍注册小程序代码实现
+
+```python
+# 1. 要求⽤户输⼊姓名、年龄、⼿机号、身份证号、所选课程，然后为学员完成注册
+# 2. ⼿机号、身份证号唯⼀
+# 3. 可选的课程只能从Python、Linux、⽹络安全、前端、数据分析 这⼏⻔⾥选
+# 4. 学员信息存⼊⽂件
+
+# 1.数据存到文件里的格式 姓名,年龄,手机,身份证,学科
+# 2.手机号,身份证号的唯一
+db_file = 'student_data.txt'
+
+
+def register_api():
+    stu_data = {}  # 初始化一个空字典
+    print('欢迎进入注册'.center(50, '-'))
+    print('请完成学籍注册:')
+    name = input('姓名:').strip()
+    age = input('年龄:').strip()
+    phone = input('手机号:').strip()
+    id_num = input('身份证号:').strip()
+
+    course_list = ['python', 'java', 'kotlin']
+    for index, course in enumerate(course_list):
+        print(f'{index+1}. {course}')
+
+    selected_course = input('选择想学的课程:')
+    if selected_course.isdigit():
+        if 1 <= int(selected_course) <= len(course_list):
+            picked_course = course_list[int(selected_course) - 1]
+        else:
+            exit('不合法的选项...')
+    else:
+        exit('非法输入...')
+    stu_data['姓名'] = name
+    stu_data['年龄'] = age
+    stu_data['电话号'] = phone
+    stu_data['身份证号'] = id_num
+    stu_data['课程'] = picked_course
+    return stu_data
+
+
+def commit_to_db(filename, stu_data):
+    # 把学员数据存到文件中
+    f = open(filename, 'a', encoding='utf-8')
+    row = f"{stu_data['姓名']}, {stu_data['年龄']}, {stu_data['电话号']}, {stu_data['身份证号']}, {stu_data['课程']}\n"
+    f.write(row)
+    f.close()
+
+
+stu_data = register_api()
+print(stu_data)
+commit_to_db(db_file, stu_data)
+```
+
+## 8.11 学籍注册小程序-手机&身份证合法性验证
+
+```python
+# 1. 要求⽤户输⼊姓名、年龄、⼿机号、身份证号、所选课程，然后为学员完成注册
+# 2. ⼿机号、身份证号唯⼀
+# 3. 可选的课程只能从Python、Linux、⽹络安全、前端、数据分析 这⼏⻔⾥选
+# 4. 学员信息存⼊⽂件
+
+# 1.数据存到文件里的格式 姓名,年龄,手机,身份证,学科
+# 2.手机号,身份证号的唯一
+db_file = 'student_data.txt'
+
+
+def register_api():
+    stu_data = {}  # 初始化一个空字典
+    print('欢迎进入注册'.center(50, '-'))
+    print('请完成学籍注册:')
+    name = input('姓名:').strip()
+    age = input('年龄:').strip()
+    phone = input('手机号:').strip()
+    if phone in phone_list:
+        exit('该手机号已注册...')
+    id_num = input('身份证号:').strip()
+    if id_num in id_num_list:
+        exit('该身份证号已注册...')
+    course_list = ['python', 'java', 'kotlin']
+    for index, course in enumerate(course_list):
+        print(f'{index + 1}. {course}')
+
+    selected_course = input('选择想学的课程:')
+    if selected_course.isdigit():
+        if 1 <= int(selected_course) <= len(course_list):
+            picked_course = course_list[int(selected_course) - 1]
+        else:
+            exit('不合法的选项...')
+    else:
+        exit('非法输入...')
+    stu_data['姓名'] = name
+    stu_data['年龄'] = age
+    stu_data['电话号'] = phone
+    stu_data['身份证号'] = id_num
+    stu_data['课程'] = picked_course
+    return stu_data
+
+
+def commit_to_db(filename, stu_data):
+    # 把学员数据存到文件中
+    f = open(filename, 'a', encoding='utf-8')
+    row = f"{stu_data['姓名']}, {stu_data['年龄']}, {stu_data['电话号']}, {stu_data['身份证号']}, {stu_data['课程']}\n"
+    f.write(row)
+    f.close()
+
+
+def load_validated_data(filename):
+    f = open(filename, 'r', encoding='utf-8')
+    phone_list = []
+    id_num_list = []
+    for line in f:
+        line = line.split(',')
+        phone = line[2].strip()
+        id_num = line[3].strip()
+        phone_list.append(phone)
+        id_num_list.append(id_num)
+    f.close()
+    return phone_list, id_num_list
+
+
+phone_list, id_num_list = load_validated_data(db_file)
+print(phone_list, id_num_list)
+stu_data = register_api()
+print(stu_data)
+commit_to_db(db_file, stu_data)
+```
+
+# 第9章 （旧）Day6 - 用Python解决各种工作问题（模块编程）
+
+## 9.1 模块介绍和调用方式

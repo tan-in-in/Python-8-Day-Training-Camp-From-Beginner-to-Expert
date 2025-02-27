@@ -5,37 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f4db2b0-dc0b-40d3-877d-07b12f8ceecd" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/全局文本检索替换脚本/测试.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/全局文本检索替换脚本/测试.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第6章  （旧）Day3 - 顺丰快递分拣小程序/6.13 东风快递分拣程序.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.1 gbk的文字如何在mac上正常显示.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.10 文件修改的巧妙玩法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.10 测试.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.11 开发全局文本检索替换脚本.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.12 文本信息.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.12 用户登录认证程序.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.13 用户登录认证程序2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.14 stock_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.14 综合实战-股票查询程序需求讲解.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.2 gbk的文字如何在mac上正常显示2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.3 gbk的文字如何在mac上正常显示3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.4 字节类型是个什么东东？.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.5 用python操作文件的3种模式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.6 文本" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.6 遍历文件-嫩模联系方式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.7 2进制模式操作文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.7 img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.8 跳到文件任意位置修改.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.9 混合模式操作文件.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/8天py集训营练习&amp;作业-数据源v2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Day 1 小白新手上路.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Day 2 开发年会抽奖游戏.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Day 3 顺丰快递分拣小程序.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Day 4 用Python处理文件.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Day 5 函数编程.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Day 6 用Python解决各种工作难题v2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Day 7 Web开发初探.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.1 函数编程的作用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.10 学籍注册小程序代码实现.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.11 学籍注册小程序-手机&amp;身份证合法性验证.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.2 函数特性&amp;语法定义.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.3 函数参数-形参&amp;实参&amp;默认参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.4 函数参数-关键参数&amp;非固定参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.5 函数返回值的作用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.6 局部变量与全局变量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.7 给函数传列表-字典时的特殊现象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.8 常用内置函数_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.9 常用内置函数2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python 8天从入门到精通训练营.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python 8天从入门到精通训练营.md" afterDir="false" />
     </list>
@@ -94,90 +74,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.1.8 PyCharm的安装与使用.executor": "Run",
-    "Python.2.10 整型和浮点型.executor": "Run",
-    "Python.2.11 布尔类型.executor": "Run",
-    "Python.2.12 创建字符串.executor": "Run",
-    "Python.2.13 字符串的转义符.executor": "Run",
-    "Python.2.14 格式化输出.executor": "Run",
-    "Python.2.15 字符串序列操作一.executor": "Run",
-    "Python.2.16 字符串序列操作二.executor": "Run",
-    "Python.2.17 输入输出函数.executor": "Run",
-    "Python.2.18 字符串内置方法一.executor": "Run",
-    "Python.2.19 字符串内置方法二.executor": "Run",
-    "Python.2.20 字符串内置方法三.executor": "Run",
-    "Python.2.21 运算符一.executor": "Run",
-    "Python.2.3 语句分隔符.executor": "Run",
-    "Python.2.4 注释语句.executor": "Run",
-    "Python.2.6 变量初识.executor": "Run",
-    "Python.2.7 变量值多次使用.executor": "Run",
-    "Python.2.8 变量值修改v2.executor": "Run",
-    "Python.3.1 双分支语句.executor": "Run",
-    "Python.3.10 continue退出循环.executor": "Run",
-    "Python.3.11 游戏小案例.executor": "Run",
-    "Python.3.2 多分支语句.executor": "Run",
-    "Python.3.3 分支嵌套语句.executor": "Run",
-    "Python.3.4 循环语句之while循环.executor": "Run",
-    "Python.3.5 循环语句之for循环.executor": "Run",
-    "Python.3.6 随机验证码案例.executor": "Run",
-    "Python.3.7 累加和案例.executor": "Run",
-    "Python.3.8 循环语句之嵌套分支.executor": "Run",
-    "Python.3.9 退出循环之break.executor": "Run",
-    "Python.4.10 数据类型初识-布尔&列表.executor": "Run",
-    "Python.4.13 读取用户指令.executor": "Run",
-    "Python.4.14 格式化输出-打印好看的个人信息卡.executor": "Run",
-    "Python.4.18 你的工资决定你的心态程序实现.executor": "Run",
-    "Python.4.6 变量来了.executor": "Run",
-    "Python.4.8 变量的修改与删除.executor": "Run",
-    "Python.4.9 数据类型初识-数字&字符串.executor": "Run",
-    "Python.5.1 for循环.executor": "Run",
-    "Python.5.2 循环嵌套.executor": "Run",
-    "Python.5.3 break&continue逃出鬼屋.executor": "Run",
-    "Python.5.4 for循环打印三角形.executor": "Run",
-    "Python.5.5 while 循环.executor": "Run",
-    "Python.5.6 京牌摇号小程序.executor": "Run",
-    "Python.5.7 京牌摇号小程序代码实现.executor": "Run",
-    "Python.5.8 年会抽奖程序.executor": "Run",
-    "Python.6.1 数据类型-字符串各种骚操作.executor": "Run",
-    "Python.6.13 东风快递分拣程序.executor": "Run",
-    "Python.6.2 数据类型-又见列表.executor": "Run",
-    "Python.6.3 数据类型-列表切片&排序&反转&循环.executor": "Run",
-    "Python.6.4 班级按成绩分组小程序.executor": "Run",
-    "Python.6.5 数据类型-字典来啦.executor": "Run",
-    "Python.6.6 数据类型-字典的各种操作.executor": "Run",
-    "Python.7.10 文件修改的巧妙玩法.executor": "Run",
-    "Python.7.11 开发全局文本检索替换脚本.executor": "Run",
-    "Python.7.12 用户登录认证程序.executor": "Run",
-    "Python.7.13 用户登录认证程序2.executor": "Run",
-    "Python.7.14 综合实战-股票查询程序需求讲解.executor": "Run",
-    "Python.7.2 gbk的文字如何在mac上正常显示2.executor": "Run",
-    "Python.7.3 gbk的文字如何在mac上正常显示3.executor": "Run",
-    "Python.7.5 用python操作文件的3种模式.executor": "Run",
-    "Python.7.6 遍历文件-嫩模联系方式.executor": "Run",
-    "Python.7.7 2进制模式操作文件.executor": "Run",
-    "Python.7.8 跳到文件任意位置修改.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.测试 (1).executor": "Run",
-    "Python.测试.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "python学习",
-    "last_opened_file_path": "D:/code/python/Python-8-Day-Training-Camp-From-Beginner-to-Expert/第7章  （旧）Day4 - 用Python批量操作文件/全局文本检索替换脚本",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.codegpt.services.ollama",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.1.8 PyCharm的安装与使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.10 整型和浮点型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.11 布尔类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.12 创建字符串.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.13 字符串的转义符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.14 格式化输出.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.15 字符串序列操作一.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.16 字符串序列操作二.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.17 输入输出函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.18 字符串内置方法一.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.19 字符串内置方法二.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.20 字符串内置方法三.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.21 运算符一.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.3 语句分隔符.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.4 注释语句.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.6 变量初识.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.7 变量值多次使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.8 变量值修改v2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.1 双分支语句.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.10 continue退出循环.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.11 游戏小案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.2 多分支语句.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.3 分支嵌套语句.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.4 循环语句之while循环.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.5 循环语句之for循环.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.6 随机验证码案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.7 累加和案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.8 循环语句之嵌套分支.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.9 退出循环之break.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.10 数据类型初识-布尔&amp;列表.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.13 读取用户指令.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.14 格式化输出-打印好看的个人信息卡.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.18 你的工资决定你的心态程序实现.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.6 变量来了.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.8 变量的修改与删除.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.9 数据类型初识-数字&amp;字符串.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.1 for循环.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.2 循环嵌套.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.3 break&amp;continue逃出鬼屋.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.4 for循环打印三角形.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.5 while 循环.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.6 京牌摇号小程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.7 京牌摇号小程序代码实现.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.8 年会抽奖程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.1 数据类型-字符串各种骚操作.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.13 东风快递分拣程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.2 数据类型-又见列表.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.3 数据类型-列表切片&amp;排序&amp;反转&amp;循环.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.4 班级按成绩分组小程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.5 数据类型-字典来啦.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.6 数据类型-字典的各种操作.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.10 文件修改的巧妙玩法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.11 开发全局文本检索替换脚本.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.12 用户登录认证程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.13 用户登录认证程序2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.14 综合实战-股票查询程序需求讲解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.2 gbk的文字如何在mac上正常显示2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.3 gbk的文字如何在mac上正常显示3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.5 用python操作文件的3种模式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.6 遍历文件-嫩模联系方式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.7 2进制模式操作文件.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.8 跳到文件任意位置修改.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.10 学籍注册小程序代码实现.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.11 学籍注册小程序-手机&amp;身份证合法性验证.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.2 函数特性&amp;语法定义.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.3 函数参数-形参&amp;实参&amp;默认参数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.4 函数参数-关键参数&amp;非固定参数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.6 局部变量与全局变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.7 给函数传列表-字典时的特殊现象.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.8 常用内置函数_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.9 常用内置函数2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.测试 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.测试.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;python学习&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/python/Python-8-Day-Training-Camp-From-Beginner-to-Expert/第8章  （旧）Day5 - 函数编程&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.codegpt.services.ollama&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\python\Python-8-Day-Training-Camp-From-Beginner-to-Expert\第8章  （旧）Day5 - 函数编程" />
       <recent name="D:\code\python\Python-8-Day-Training-Camp-From-Beginner-to-Expert\第7章  （旧）Day4 - 用Python批量操作文件\全局文本检索替换脚本" />
       <recent name="D:\code\python\Python-8-Day-Training-Camp-From-Beginner-to-Expert\第7章  （旧）Day4 - 用Python批量操作文件" />
       <recent name="D:\code\python\Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
@@ -186,8 +176,8 @@
       <recent name="D:\code\python\Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.7.14 综合实战-股票查询程序需求讲解">
-    <configuration name="测试 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.8.11 学籍注册小程序-手机&amp;身份证合法性验证">
+    <configuration name="8.10 学籍注册小程序代码实现" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,12 +186,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/测试.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.10 学籍注册小程序代码实现.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +200,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8.11 学籍注册小程序-手机&amp;身份证合法性验证" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,12 +209,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/全局文本检索替换脚本" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/全局文本检索替换脚本/测试.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.11 学籍注册小程序-手机&amp;身份证合法性验证.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,7 +223,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.12 用户登录认证程序" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8.7 给函数传列表-字典时的特殊现象" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -242,12 +232,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.12 用户登录认证程序.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.7 给函数传列表-字典时的特殊现象.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +246,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.13 用户登录认证程序2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8.8 常用内置函数_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,12 +255,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.13 用户登录认证程序2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.8 常用内置函数_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,7 +269,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.14 综合实战-股票查询程序需求讲解" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="8.9 常用内置函数2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-8-Day-Training-Camp-From-Beginner-to-Expert" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -288,12 +278,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件/7.14 综合实战-股票查询程序需求讲解.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程/8.9 常用内置函数2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.7.14 综合实战-股票查询程序需求讲解" />
-        <item itemvalue="Python.7.13 用户登录认证程序2" />
-        <item itemvalue="Python.7.12 用户登录认证程序" />
-        <item itemvalue="Python.测试 (1)" />
-        <item itemvalue="Python.测试" />
+        <item itemvalue="Python.8.11 学籍注册小程序-手机&amp;身份证合法性验证" />
+        <item itemvalue="Python.8.10 学籍注册小程序代码实现" />
+        <item itemvalue="Python.8.9 常用内置函数2" />
+        <item itemvalue="Python.8.8 常用内置函数_1" />
+        <item itemvalue="Python.8.7 给函数传列表-字典时的特殊现象" />
       </list>
     </recent_temporary>
   </component>
@@ -356,6 +346,9 @@
       <workItem from="1740355383376" duration="9114000" />
       <workItem from="1740387152012" duration="1109000" />
       <workItem from="1740442961921" duration="3637000" />
+      <workItem from="1740533849427" duration="4107000" />
+      <workItem from="1740553838680" duration="4755000" />
+      <workItem from="1740618587739" duration="4729000" />
     </task>
     <servers />
   </component>
@@ -385,13 +378,13 @@
     <SUITE FILE_PATH="coverage/Python_8$5_6_.coverage" NAME="5.6 京牌摇号小程序 覆盖结果" MODIFIED="1739863707120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
     <SUITE FILE_PATH="coverage/Python_8$5_2_.coverage" NAME="5.2 循环嵌套 覆盖结果" MODIFIED="1739839821916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
     <SUITE FILE_PATH="coverage/Python_8$4_9___.coverage" NAME="4.9 数据类型初识-数字&amp;字符串 覆盖结果" MODIFIED="1739779368939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第4章  （旧）Day1 - Python小白上路" />
-    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$7_2_gbkmac2.coverage" NAME="7.2 gbk的文字如何在mac上正常显示2 覆盖结果" MODIFIED="1740038212019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$7_14__.coverage" NAME="7.14 综合实战-股票查询程序需求讲解 覆盖结果" MODIFIED="1740446596148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$7_2_gbkmac2.coverage" NAME="7.2 gbk的文字如何在mac上正常显示2 覆盖结果" MODIFIED="1740038212019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
     <SUITE FILE_PATH="coverage/Python_8$5_4_for.coverage" NAME="5.4 for循环打印三角形 覆盖结果" MODIFIED="1739859514032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
     <SUITE FILE_PATH="coverage/Python_8$3_2_.coverage" NAME="3.2 多分支语句 覆盖结果" MODIFIED="1739623773421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章  （新）Day3 - Python逻辑语句" />
     <SUITE FILE_PATH="coverage/Python_8$2_15_.coverage" NAME="2.15 字符串序列操作一 覆盖结果" MODIFIED="1739518768484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
-    <SUITE FILE_PATH="coverage/Python_8$2_8_v2.coverage" NAME="2.8 变量值修改v2 覆盖结果" MODIFIED="1739498150213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$1_8_PyCharm.coverage" NAME="1.8 PyCharm的安装与使用 覆盖结果" MODIFIED="1739492283889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第1章  （新）Day1 - 初识Python" />
+    <SUITE FILE_PATH="coverage/Python_8$2_8_v2.coverage" NAME="2.8 变量值修改v2 覆盖结果" MODIFIED="1739498150213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$4_10___.coverage" NAME="4.10 数据类型初识-布尔&amp;列表 覆盖结果" MODIFIED="1739780292465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第4章  （旧）Day1 - Python小白上路" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$6_1__.coverage" NAME="6.1 数据类型-字符串各种骚操作 覆盖结果" MODIFIED="1739953411711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章  （旧）Day3 - 顺丰快递分拣小程序" />
     <SUITE FILE_PATH="coverage/Python_8$5_5_while_.coverage" NAME="5.5 while 循环 覆盖结果" MODIFIED="1739859865664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
@@ -399,6 +392,7 @@
     <SUITE FILE_PATH="coverage/Python_8$4_14__.coverage" NAME="4.14 格式化输出-打印好看的个人信息卡 覆盖结果" MODIFIED="1739798482037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第4章  （旧）Day1 - Python小白上路" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$5_8_.coverage" NAME="5.8 年会抽奖程序 覆盖结果" MODIFIED="1739923627740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
     <SUITE FILE_PATH="coverage/Python_8$2_3_.coverage" NAME="2.3 语句分隔符 覆盖结果" MODIFIED="1739492811882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_11___.coverage" NAME="8.11 学籍注册小程序-手机&amp;身份证合法性验证 覆盖结果" MODIFIED="1740625821161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8$2_19_.coverage" NAME="2.19 字符串内置方法二 覆盖结果" MODIFIED="1739593870323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$5_3_break_continue.coverage" NAME="5.3 break&amp;continue逃出鬼屋 覆盖结果" MODIFIED="1739859293125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$7_6__.coverage" NAME="7.6 遍历文件-嫩模联系方式 覆盖结果" MODIFIED="1740040338334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
@@ -410,15 +404,19 @@
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$6_4_.coverage" NAME="6.4 班级按成绩分组小程序 覆盖结果" MODIFIED="1739963848047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章  （旧）Day3 - 顺丰快递分拣小程序" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$6_6__.coverage" NAME="6.6 数据类型-字典的各种操作 覆盖结果" MODIFIED="1739965299569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章  （旧）Day3 - 顺丰快递分拣小程序" />
     <SUITE FILE_PATH="coverage/Python_8$test.coverage" NAME="test 覆盖结果" MODIFIED="1739412202389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_4___.coverage" NAME="8.4 函数参数-关键参数&amp;非固定参数 覆盖结果" MODIFIED="1740536626111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_7__.coverage" NAME="8.7 给函数传列表-字典时的特殊现象 覆盖结果" MODIFIED="1740554302069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8$3_6_.coverage" NAME="3.6 随机验证码案例 覆盖结果" MODIFIED="1739759744704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章  （新）Day3 - Python逻辑语句" />
     <SUITE FILE_PATH="coverage/Python_8$2_16_.coverage" NAME="2.16 字符串序列操作二 覆盖结果" MODIFIED="1739519701561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$6_3_____.coverage" NAME="6.3 数据类型-列表切片&amp;排序&amp;反转&amp;循环 覆盖结果" MODIFIED="1739955457442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章  （旧）Day3 - 顺丰快递分拣小程序" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$.coverage" NAME="测试 覆盖结果" MODIFIED="1740360699264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/全局文本检索替换脚本" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_3____.coverage" NAME="8.3 函数参数-形参&amp;实参&amp;默认参数 覆盖结果" MODIFIED="1740535952216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$6_5__.coverage" NAME="6.5 数据类型-字典来啦 覆盖结果" MODIFIED="1739964509835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章  （旧）Day3 - 顺丰快递分拣小程序" />
     <SUITE FILE_PATH="coverage/Python_8$4_13_.coverage" NAME="4.13 读取用户指令 覆盖结果" MODIFIED="1739782814740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第4章  （旧）Day1 - Python小白上路" />
     <SUITE FILE_PATH="coverage/Python_8$2_4_.coverage" NAME="2.4 注释语句 覆盖结果" MODIFIED="1739493885529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$6_2__.coverage" NAME="6.2 数据类型-又见列表 覆盖结果" MODIFIED="1739954302150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第6章  （旧）Day3 - 顺丰快递分拣小程序" />
     <SUITE FILE_PATH="coverage/Python_8$2_21_.coverage" NAME="2.21 运算符一 覆盖结果" MODIFIED="1739598547581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_2__.coverage" NAME="8.2 函数特性&amp;语法定义 覆盖结果" MODIFIED="1740534914702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8$3_8_.coverage" NAME="3.8 循环语句之嵌套分支 覆盖结果" MODIFIED="1739760956686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章  （新）Day3 - Python逻辑语句" />
     <SUITE FILE_PATH="coverage/Python_8$4_8_.coverage" NAME="4.8 变量的修改与删除 覆盖结果" MODIFIED="1739778504586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第4章  （旧）Day1 - Python小白上路" />
     <SUITE FILE_PATH="coverage/Python_8$2_13_.coverage" NAME="2.13 字符串的转义符 覆盖结果" MODIFIED="1739516047787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
@@ -433,13 +431,17 @@
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$7_8_.coverage" NAME="7.8 跳到文件任意位置修改 覆盖结果" MODIFIED="1740356349018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
     <SUITE FILE_PATH="coverage/Python_8$2_14_.coverage" NAME="2.14 格式化输出 覆盖结果" MODIFIED="1739516880604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$3_7_.coverage" NAME="3.7 累加和案例 覆盖结果" MODIFIED="1739760067243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章  （新）Day3 - Python逻辑语句" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_6_.coverage" NAME="8.6 局部变量与全局变量 覆盖结果" MODIFIED="1740537573030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$7_10_.coverage" NAME="7.10 文件修改的巧妙玩法 覆盖结果" MODIFIED="1740358189755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
     <SUITE FILE_PATH="coverage/Python_8$2_20_.coverage" NAME="2.20 字符串内置方法三 覆盖结果" MODIFIED="1739595023400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
     <SUITE FILE_PATH="coverage/Python_8$5_7_.coverage" NAME="5.7 京牌摇号小程序代码实现 覆盖结果" MODIFIED="1739864838096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第5章  （旧）Day2 - 年会抽奖程序开发" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_10_.coverage" NAME="8.10 学籍注册小程序代码实现 覆盖结果" MODIFIED="1740624473901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8$3_10_continue.coverage" NAME="3.10 continue退出循环 覆盖结果" MODIFIED="1739772509335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章  （新）Day3 - Python逻辑语句" />
     <SUITE FILE_PATH="coverage/Python_8$3_1_.coverage" NAME="3.1 双分支语句 覆盖结果" MODIFIED="1739623032187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第3章  （新）Day3 - Python逻辑语句" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_8__1.coverage" NAME="8.8 常用内置函数_1 覆盖结果" MODIFIED="1740555598783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8$4_18_.coverage" NAME="4.18 你的工资决定你的心态程序实现 覆盖结果" MODIFIED="1739799966628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第4章  （旧）Day1 - Python小白上路" />
     <SUITE FILE_PATH="coverage/Python_8$2_18_.coverage" NAME="2.18 字符串内置方法一 覆盖结果" MODIFIED="1739524083630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
+    <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$8_9_2.coverage" NAME="8.9 常用内置函数2 覆盖结果" MODIFIED="1740560868267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第8章  （旧）Day5 - 函数编程" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$__1_.coverage" NAME="测试 (1) 覆盖结果" MODIFIED="1740387662536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
     <SUITE FILE_PATH="coverage/Python_8_Day_Training_Camp_From_Beginner_to_Expert$7_5_python3.coverage" NAME="7.5 用python操作文件的3种模式 覆盖结果" MODIFIED="1740039870921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第7章  （旧）Day4 - 用Python批量操作文件" />
     <SUITE FILE_PATH="coverage/Python_8$2_11_.coverage" NAME="2.11 布尔类型 覆盖结果" MODIFIED="1739514773374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第2章  （新）Day2 - Python基础入门" />
